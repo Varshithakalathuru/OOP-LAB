@@ -11,13 +11,13 @@ class varshis extends varshi
 {
  void  Age(int age)
   {  
-    System.out.println("Age:"+age);
+   return age;
   }
 
  public static void main(String[] args)
  {
   varshis obj =new varshis();
   System.out.println("Name:"+obj.Name("VARSHITHA Reddy"));
-  obj.Age(18);
+  System.out.println("Age:"+obj.Age(18));
  }
 }
